@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Cadena Warrior | Salamanca</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Inter:wght@300;400;700&display=swap');
+        h1, h2, h3, .font-special { font-family: 'Orbitron', sans-serif; }
+        body { font-family: 'Inter', sans-serif; }
+        .bg-gradient-hero { background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.9)); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-black text-white">
+
+    <nav class="fixed w-full z-50 bg-black/95 border-b border-white/10 px-6 py-3">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="Logo" class="h-12 w-12 object-contain">
+                <span class="font-special font-black text-lg tracking-tighter uppercase italic">Team <span class="text-red-600">Cadena</span></span>
+            </div>
+            
+            <div class="hidden md:flex gap-8 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
+                <a href="#disciplinas" class="hover:text-red-600 transition">Disciplinas</a>
+                <a href="#horario" class="hover:text-red-600 transition">Horario</a>
+                <a href="#maestro" class="hover:text-red-600 transition">El Maestro</a>
+                <a href="#contacto" class="hover:text-red-600 transition">Ubicación</a>
+            </div>
+
+            <div class="flex items-center gap-5">
+                <a href="https://www.instagram.com/teamcadenawarrior/" target="_blank" class="text-white hover:text-red-600 transition" title="Síguenos en Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/34602643452" class="bg-transparent border-2 border-red-600 text-white px-5 py-2 text-[10px] font-black uppercase tracking-widest hover:bg-red-600 transition duration-300">
+                    Reservar Clase
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="hero.jpg" class="w-full h-full object-cover object-top opacity-60" alt="Guilherme Cadena">
+            <div class="absolute inset-0 bg-gradient-hero"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 w-full text-center md:text-left">
+            <div class="max-w-2xl">
+                <h2 class="text-red-600 font-bold tracking-[0.4em] uppercase mb-2 text-xs">Salamanca | MMA & BJJ</h2>
+                <h1 class="text-5xl md:text-8xl font-black leading-none mb-6 italic uppercase">Team Cadena<br><span class="text-red-600">Warrior</span></h1>
+                <p class="text-gray-300 text-lg mb-8 border-l-4 border-red-600 pl-4">
+                    Bajo la tutela de <strong>Guilherme Cadena</strong>, luchador profesional. Una familia de guerreros en el corazón de Salamanca.
+                </p>
+                <div class="flex flex-wrap gap-8 items-center justify-center md:justify-start">
+                    <span class="text-red-600 font-black uppercase tracking-[0.3em] text-sm italic">Ven a probar gratis</span>
+                    <a href="tel:602643452" class="border border-white/30 backdrop-blur-sm px-8 py-4 font-black uppercase tracking-tighter hover:bg-white hover:text-black transition italic text-xl">602 64 34 52</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="disciplinas" class="py-24 bg-zinc-950 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black uppercase mb-4 tracking-tighter italic">Entrenamiento <span class="text-red-600">Élite</span></h2>
+                <p class="text-gray-500 italic">"Treino duro, luta fácil."</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="bg-zinc-900 p-8 border border-white/5 hover:border-red-600 transition group">
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-red-600 uppercase italic">Jiu-Jitsu 🥋</h3>
+                    <p class="text-sm text-gray-400">Arte suave, técnica y estrategia en el tatami.</p>
+                </div>
+                <div class="bg-zinc-900 p-8 border border-white/5 hover:border-red-600 transition group">
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-red-600 uppercase italic">MMA 💥</h3>
+                    <p class="text-sm text-gray-400">Artes Marciales Mixtas. La disciplina más completa.</p>
+                </div>
+                <div class="bg-zinc-900 p-8 border border-white/5 hover:border-red-600 transition group">
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-red-600 uppercase italic">Boxeo 🥊</h3>
+                    <p class="text-sm text-gray-400">Golpeo, agilidad y cardio de alta intensidad.</p>
+                </div>
+                <div class="bg-zinc-900 p-8 border border-white/5 hover:border-red-600 transition group">
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-red-600 uppercase italic">Grappling 🤼‍♂️</h3>
+                    <p class="text-sm text-gray-400">Control y sumisión sin necesidad de kimono.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="horario" class="py-24 bg-zinc-950 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-black uppercase mb-12 tracking-tighter italic">Nuestros <span class="text-red-600">Horarios</span></h2>
+            <div class="max-w-md mx-auto">
+                <img src="horario.jpg" class="w-full h-auto rounded shadow-2xl border border-white/10" alt="Horario Team Cadena Warrior">
+            </div>
+        </div>
+    </section>
+
+    <section id="maestro" class="py-24 px-6 bg-zinc-950 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 items-center">
+            <div class="md:w-1/2 relative">
+                <img src="equipo.jpg" class="rounded shadow-2xl border border-red-600/20" alt="Team Cadena Warrior">
+                <div class="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-red-600 z-0"></div>
+            </div>
+            <div class="md:w-1/2 text-left">
+                <h2 class="text-4xl font-black uppercase mb-6 italic italic">Guilherme <span class="text-red-600 text-5xl">Cadena</span></h2>
+                <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+                    Experiencia internacional en Brasil y España. Como luchador profesional en activo, Guilherme transmite la técnica y los valores reales de la competición.
+                </p>
+                <div class="grid grid-cols-2 gap-4 text-[10px] font-bold uppercase tracking-widest text-gray-500">
+                    <div class="flex items-center gap-3 font-black"><span class="text-red-600 text-2xl italic">✔</span> +70 Guerreros</div>
+                    <div class="flex items-center gap-3 font-black"><span class="text-red-600 text-2xl italic">✔</span> Desde los 7 años</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-zinc-950 border-t border-white/5">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1 text-left">
+                <h2 class="text-4xl font-black uppercase mb-6 uppercase italic">Entrenamiento <span class="text-red-600">Real</span></h2>
+                <p class="text-gray-400 mb-6 italic italic">"No es un deporte agresivo, es un estilo de vida que te motiva cada día".</p>
+                <p class="text-gray-300 leading-relaxed">Nuestras clases están diseñadas para que aprendas técnica real en el mejor ambiente de Salamanca.</p>
+            </div>
+            <div class="order-1 md:order-2">
+                <img src="entreno.jpg" class="rounded border-r-8 border-red-600 shadow-2xl" alt="Entrenamiento">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-24 bg-black px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16">
+            <div class="text-left">
+                <h2 class="text-4xl font-black uppercase mb-8 italic text-5xl">Dónde <span class="text-red-600">Estamos</span></h2>
+                <p class="text-white font-bold text-xl uppercase mb-1">Calle Dr. Ferrán, 26</p>
+                <p class="text-gray-500 uppercase tracking-widest text-sm mb-8">37008 Salamanca</p>
+                
+                <div class="w-full h-80 rounded overflow-hidden border border-white/10 shadow-lg group relative">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Team+cadena+jiu+jitsu+y+MMA+Salamanca" target="_blank" class="block w-full h-full">
+                        <img src="mapa.jpg" class="w-full h-full object-cover group-hover:opacity-80 transition duration-300" alt="Mapa Team Cadena Warrior">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+                             <span class="bg-red-600 text-white px-4 py-2 text-[10px] font-black uppercase tracking-widest">Abrir en Google Maps</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-zinc-900 p-12 border-t-4 border-red-600 flex flex-col justify-center text-center">
+                <h3 class="text-3xl font-black mb-6 uppercase italic">Únete al equipo</h3>
+                <p class="text-gray-400 mb-10 text-lg">Reserva tu primera clase de prueba gratuita vía WhatsApp o llámanos para consultar horarios.</p>
+                <a href="https://wa.me/34602643452" class="bg-red-600 text-white py-5 font-black uppercase tracking-tighter hover:bg-white hover:text-black transition italic">
+                    Contactar vía WhatsApp
+                </a>
+                <p class="mt-6 text-sm font-bold tracking-widest text-gray-500 italic uppercase">O llama al 602 64 34 52</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-700 text-[10px] uppercase tracking-[0.4em]">
+        <div class="flex justify-center items-center gap-4 mb-4">
+            <a href="https://www.instagram.com/teamcadenawarrior/" target="_blank" class="hover:text-red-600 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+            </a>
+        </div>
+        © 2026 Team Cadena Warrior | Salamanca | Lobo
+    </footer>
+
+</body>
+</html>
